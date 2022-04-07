@@ -6,6 +6,9 @@ The paper discusses the details of Brain tumor tissue types, Glioma Tumor Analys
 # Dataset
 The data used in this work is MICCAI BraTS 2019 Training and Vaidation sets , can be requested and downloaded from this link: https://ipp.cbica.upenn.edu/categories/brats2019
 
+# Training & Testing
+Sample notebooks for training and sample testing of the models are provided in Models folder. Data is required to be stored in the Drive folder before excuting the notebooks.
+
 # Results
 The visualizations of segmentation results of each model can be reviewed from Results folder
 The comparative results can be reviewed from the tables below:
