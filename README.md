@@ -17,6 +17,6 @@ Table I : Brain Tumor Segmentation Comparative Analysis Results on BraTS dataset
 ## DeepMedic
 DeepMedic is the software that allows to train a deep learning model and obtain the segmentation results. Initially, it was used for segmenting brain lesions in MRI imaging modality. It allows multi scale processing of multi modal data more efficiently. The software requires the preprocessing of medical images and accepts the data in form of NIFTI files. The preprocessing of the data involves normalizing the data and obtaining ROI masks including brain masks. The software is yet being developed and can be used as a baseline for fulfilling medical segmentation tasks.
 
-Table II : DeepMedic multimodal segmentation results at each label obtained on BraTS dataset
+Table II : DeepMedic Multimodal Segmentation results at each label obtained on BraTS dataset
 
 ![result2](https://user-images.githubusercontent.com/90093202/162196789-26b4eafb-31f9-4eab-ba5d-18e2da46fb37.png)
