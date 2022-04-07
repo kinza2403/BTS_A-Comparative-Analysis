@@ -7,12 +7,15 @@ The paper discusses the details of Brain tumor tissue types, Glioma Tumor Analys
 The data used in this work is MICCAI BraTS 2019 Training and Vaidation sets , can be requested and downloaded from this link: https://ipp.cbica.upenn.edu/categories/brats2019
 
 # Results
-The visualizations of segemntation results of each model can be reviewed from Results folder
+The visualizations of segmentation results of each model can be reviewed from Results folder
 The comparative results can be reviewed from the tables below:
 
 Table I : Brain Tumor Segmentation Comparative Analysis Results on BraTS dataset
 
 ![result1](https://user-images.githubusercontent.com/90093202/162196739-901cf86c-3e2a-4873-9c25-98c608e19989.png)
+
+## DeepMedic
+DeepMedic is the software that allows to train a deep learning model and obtain the segmentation results. Initially, it was used for segmenting brain lesions in MRI imaging modality. It allows multi scale processing of multi modal data more efficiently. The software requires the preprocessing of medical images and accepts the data in form of NIFTI files. The preprocessing of the data involves normalizing the data and obtaining ROI masks including brain masks. The software is yet being developed and can be used as a baseline for fulfilling medical segmentation tasks.
 
 Table II : DeepMedic multimodal segmentation results at each label obtained on BraTS dataset
 
